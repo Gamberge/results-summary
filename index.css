@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 1440px;
+    display: block;
+    padding-left: 25%;
+    font-family: 'Hanken Grotesk';
+}
+
+.container {
+    margin-top: 12%;
+    width: 730px;
+    height: 512px;
+    border-radius: 40px;
+    display: flex;
+    box-shadow: 5px 5px 44px -32px #302AE0;
+}
+
+.container .card-left {
+    width: 368px;
+    height: 512px;
+    background: linear-gradient(180deg, #6345F5, #302AE0);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container .card-left .result {
+    margin-top: 45px;
+    margin-bottom: 37px;
+    color: #CAC9FF;
+}
+
+.container .card-left .circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(#4624C3, #4536E9);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 33px;
+}
+
+.container .card-left .circle h1 {
+    font-size: 65px;
+    color: #fffffe;
+}
+
+.container .card-left .circle p {
+    color: #9185FF;
+    font-size: 18px;
+}
+
+.container .card-left .comment h2 {
+    color: #FDFFFF;
+    margin-bottom: 17px;
+    font-weight: 500;
+}
+
+.container .card-left .comment p {
+    margin-inline: 65px;
+    font-size: 17px;
+    color: #BFC0FF;
+}
+
+.container .card-right {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 33px;
+}
+
+.container .card-right .summary {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.container .card-right .categories .note-reaction {
+    width: 288px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEF6F6;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.container .card-right .categories .note-reaction .note-reaction-left {
+    display: flex;
+}
+
+.container .card-right .categories .note-reaction .note-reaction-left img {
+    width: 20px;
+    margin-block: auto;
+    margin-left: 12px;
+}
+
+.container .card-right .categories .note-reaction .note-reaction-left p {
+    color: #EA3F34;
+    margin-left: 8px;
+}
+
+.container .card-right .categories .note-reaction .note-reaction-right p {
+    margin-right: 10px;
+    color: #BAB5B7;
+    font-size: 14px;
+}
+
+.container .card-right .categories .note-reaction .note-reaction-right p span {
+    color: #323B57;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container .card-right .categories .note-memory {
+    width: 288px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FEFBF3;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.container .card-right .categories .note-memory .note-memory-left {
+    display: flex;
+}
+
+.container .card-right .categories .note-memory .note-memory-left img {
+    width: 20px;
+    margin-block: auto;
+    margin-left: 12px;
+}
+
+.container .card-right .categories .note-memory .note-memory-left p {
+    color: #F4B546;
+    margin-left: 8px;
+}
+
+.container .card-right .categories .note-memory .note-memory-right p {
+    margin-right: 10px;
+    color: #BAB5B7;
+    font-size: 14px;
+}
+
+.container .card-right .categories .note-memory .note-memory-right p span {
+    color: #323B57;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container .card-right .categories .note-verbal {
+    width: 288px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5FAFA;
+    border-radius: 10px;
+    margin-bottom: 18px;
+}
+
+.container .card-right .categories .note-verbal .note-verbal-left {
+    display: flex;
+}
+
+.container .card-right .categories .note-verbal .note-verbal-left img {
+    width: 20px;
+    margin-block: auto;
+    margin-left: 12px;
+}
+
+.container .card-right .categories .note-verbal .note-verbal-left p {
+    color: #54B892;
+    margin-left: 8px;
+}
+
+.container .card-right .categories .note-verbal .note-verbal-right p {
+    margin-right: 10px;
+    color: #BAB5B7;
+    font-size: 14px;
+}
+
+.container .card-right .categories .note-verbal .note-verbal-right p span {
+    color: #323B57;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container .card-right .categories .note-visual {
+    width: 288px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3F3FB;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+
+.container .card-right .categories .note-visual .note-visual-left {
+    display: flex;
+}
+
+.container .card-right .categories .note-visual .note-visual-left img {
+    width: 20px;
+    margin-block: auto;
+    margin-left: 12px;
+}
+
+.container .card-right .categories .note-visual .note-visual-left p {
+    color: #1625CD;
+    margin-left: 8px;
+}
+
+.container .card-right .categories .note-visual .note-visual-right p {
+    margin-right: 10px;
+    color: #BAB5B7;
+    font-size: 14px;
+}
+
+.container .card-right .categories .note-visual .note-visual-right p span {
+    color: #323B57;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button {
+    background-color: #323B57;
+    color: white;
+    width: 288px;
+    height: 50px;
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    body {
+        width: 375px;
+        margin-left: 13%;
+    }
+
+    .container {
+        margin-top: 0;
+        width: 375px;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container .card-left {
+        width: 375px;
+        height: auto;
+        border-radius: 0 0 40px 40px;
+    }
+
+    .container .card-left .result {
+        margin-top: 25px;
+        margin-bottom: 29px;
+        font-size: 12px;
+    }
+
+    .container .card-left .circle {
+        margin-bottom: 24px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .container .card-left .circle h1 {
+        font-size: 58px;
+    }
+
+    .container .card-left .comment h2 {
+        margin-bottom: 0px;
+    }
+
+    .container .card-left .comment p {
+        font-size: 14px;
+        margin-top: 12px;
+        letter-spacing: 1.5;
+        margin-bottom: 36px;
+    }
+
+    .container .card-right {
+        margin-inline: 28px;
+    }
+
+    .container .card-right .summary {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: 400;
+    }
+
+    .container .card-right .categories .note-reaction {
+        width: 315px;
+    }
+
+    .container .card-right .categories .note-memory {
+        width: 315px;
+    }
+
+    .container .card-right .categories .note-verbal {
+        width: 315px;
+    }
+
+    .container .card-right .categories .note-visual {
+        width: 315px;
+    }
+
+    button {
+        width: 315px;
+        height: 60px;
+        margin-bottom: 25px;
+        border-radius: 30px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+}
